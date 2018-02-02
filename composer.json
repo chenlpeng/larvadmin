@@ -1,0 +1,24 @@
+{
+    "name": "angkees/larvadmin",
+    "description": "Larvadmin is a laravel test package",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "clp",
+            "email": "643788871@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Angkees\\Larvadmin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Angkees\\Larvadmin\\Tests\\": "tests/"
+        }
+    },
+}
