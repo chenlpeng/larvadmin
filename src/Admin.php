@@ -23,8 +23,9 @@ class Admin
 
     public function printRunning()
     {
-        echo 'runningsss';
+        echo 'is My packages';
     }
+
 
 
     public function check(string $pattern , string $subject){
